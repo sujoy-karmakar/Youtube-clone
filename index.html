@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,200;1,400;1,600&family=Nunito:wght@500&family=Oswald:wght@200&family=Pacifico&family=Rubik+Scribble&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            outline: none;
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body class="bg-[#0f0f0f] text-gray-50  ">
+    <!-- header start -->
+    <header class="fixed w-full z-30 ">
+        <!-- nav start -->
+        <nav
+            class="flex py-3 items-center justify-between px-2 md:px-8   text-[15px] sm:text-[15px] md:text-[18px] lg:text-[20px] xl:text-[24px] lg:h-[60px] bg-[#0f0f0f]  md:h-[50px]">
+            <!-- menu bar -->
+            <div class="flex items-center gap-2">
+                <p class="hidden sm:block"> <i class="fa-solid fa-bars "></i></p>
+                <span class="flex items-center">
+                    <img src="./Assests/y-logo.png" alt="" class="w-15 h-6 md:w-15 md:h-8"> <sup>In</sup>
+                </span>
+            </div>
+
+            <!-- search bar -->
+            <div class=" hidden sm:block">
+                <div class=" flex items-center gap-2  ">
+                    <div
+                        class="flex items-center h-3 sm:h-8 sm:w-[300px] md:w-[450px] md:h-8 lg:w-[550px] lg:h-10 bg-[black] broder rounded-3xl border-[#2e2e2e] md:text-[15px] lg:text-[20px]">
+                        <input type="search" placeholder="  Search"
+                            class="w-full h-full outline-none bg-transparent pl-2">
+                        <div class="h-full bg-[#2e2e2e] rounded-r-3xl flex items-center px-2 md:px-3 lg:px-8 ">
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+            <!-- profile -->
+
+            <div class="flex items-center gap-2 md:gap-5">
+                <i class="fa-solid fa-video"></i>
+                <i class="fa-solid fa-bell"></i>
+                <img src="./Assests/thor.jpg" alt=""
+                    class=" hidden sm:block w-5 h-5 sm:w-8 sm:h-8 md:w-10 md:h-10 rounded-3xl">
+                <span class="sm:hidden"><i class="fa-solid fa-magnifying-glass"></i></span>
+
+            </div>
+        </nav>
+        <!-- nav end -->
+    </header>
+    <!-- main section -->
+
+    <main class="relative w-full top-10 md:top-7">
+        <div class="sm:flex">
+            <!-- left section  -->
+            <div class="hidden mt-10 sm:block sm:w-[80px] ">
+
+            </div>
+
+
+            <!-- right section -->
+            <div
+                class="w-full text-white text-[10px] sm:text-sm md:text-md lg:text-[18px] h-screen relative top-2 sm:top-5 md:top-8 lg:top-10 xl:top-12 z-0 ">
+                <!-- content type -->
+                <div class="flex w-full justify-between   items-center px-2 ">
+                    <p class="px-2 py-1   bg-[#272727] rounded"><i class="fa-regular fa-compass "></i>
+                    </p>
+                    <p class="px-2 py-1 rounded bg-[#272727]">All</p>
+                    <p class="px-2 py-1 bg-[#272727] rounded">Pw Skill</p>
+                    <p class="px-2 py-1 rounded bg-[#272727]">Full Stack</p>
+                    <p class="px-2 py-1 rounded bg-[#2e2e2e]">Music</p>
+                    <p class="px-2 py-1 bg-[#2e2e2e] rounded">Salar</p>
+                    <p class="px-2 py-1 hidden sm:block rounded bg-[#2e2e2e]">MrBeast</p>
+                    <p class="px-2 py-1 hidden sm:block rounded bg-[#2e2e2e]">JavaScript</p>
+                    <p class="px-2 py-1 hidden lg:block rounded bg-[#2e2e2e]">Tailwind</p>
+                    <p class="px-2 py-1 hidden lg:block rounded bg-[#2e2e2e]">Modi</p>
+                    <p class="px-2 py-1 hidden lg:block rounded bg-[#2e2e2e]">Hollywood</p>
+                    <p class="px-2 py-1 hidden lg:block rounded bg-[#2e2e2e]">PJ</p>
+                    <p class="px-2 py-1 hidden xl:block rounded bg-[#2e2e2e]">Dc</p>
+                </div>
+
+                <!-- video gallery-->
+                <div class="grid grid-cols-1 sm:grid-cols-2 p-3 lg:grid-cols-3 gap-5  ">
+                    <!-- v1 -->
+                    <div> <iframe src="https://www.youtube.com/embed/kTJczUoc26U?si=C23nAdLabU5mmUqu"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreenb class="w-full rounded "></iframe>
+                        <div class="flex items-center gap-5 mt-2 text-[12px] ">
+                            <img src="./Assests/creator logo/stay.jpg" alt="" class=" w-8 h-8 rounded-3xl self-start">
+                            <div class="leading-5">
+                                <p>The Kid LAROI, Justin Bieber - STAY (Official Video)</p>
+                                <p class=" text-[10px] ">The Kid LAROI. 840M views. 2 years ago</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- v2 -->
+
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/0yqKZ9ogsyU?si=xZOtWFAsncSqZTUF"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/pw-skill.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>MERN Stack Developer Roadmap 2024 | Detailed Guide</p>
+                                <p class=" text-[10px] ">PW Skills Tech . 1.4K . views
+                                    2 days ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v3 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/HihakYi5M2I?si=bNlI8WvThm_QdcuS"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full h-auto rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/homebale.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5 ">
+                                <p class="truncate">Salaar Hindi Trailer | Prabhas | Prashanth Neel |<br>
+                                    Prithviraj |Shruthi </p>
+                                <p class=" text-[10px] ">
+                                    81M .views 3 weeks ago </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v4 -->
+
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/lOKASgtr6kU?si=5u09cXGcMcq5vqXb"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/mrBeast.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>I Rescued 100 Abandoned Dogs!
+                                </p>
+                                <p class=" text-[10px] ">
+                                    63M . views
+                                    3 days ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v5 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/sscX432bMZo?si=KoT_7nVBzRYq1Fj6"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/hitesh.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>Javascript in 1 shot in Hindi | part 1</p>
+                                <p class=" text-[10px] ">400K . views
+                                    4 months ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v6-->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/7qB9oFX3eSg?si=yWKZ8b009v7xUITv"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/abhiandniyu.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>Vivek Bindra vs Sandeep Maheshwari | 5 Burning Questions by Abhi and Niyu</p>
+                                <p class=" text-[10px] ">
+                                    2.2M .views 1 day ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v7 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/qW37359Q9t8?si=OP6aMiS-7mWmTRa6"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/mg[.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>Ninja Hattori vs Oggy vs Doraemon vs Shinchan - Tiles Hop EDM Rush</p>
+                                <p class=" text-[10px] ">5.3M views 1 year ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--v8 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/WuiB5TAQOAM?si=k8TlfzNPJYDvUPJi"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/pw-skill.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>CSS Crash Course For Beginners | Complete CSS Tutorial with Project</p>
+                                <p class=" text-[10px] ">10K views 4 months ago </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v9 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/Nlt75LsS0JM?si=tNlWW6Nm4jTfsjPM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/neev.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>This Video Will Change Your Mindset 🥺🔥 | Self Belief System 🧠e</p>
+                                <p class=" text-[10px] ">633K views 3 months ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v10 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/xxn8eilEEZw?si=oeLzu9miaKY1OF_J"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/motivation.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>How to control your subconscious mind ??🤯 | Alakh Sir Motivation | Phsicswallah</p>
+                                <p class=" text-[10px] ">421K views 3 months ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v11 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/5RQv0E0qMfo?si=TWjQsUlAufzn_zp1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/abhiandniyu.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>Top 10 reasons 2023 was India's comeback year | Abhi and Niyu</p>
+                                <p class=" text-[10px] ">520K views 23 hours ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- v12 -->
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/yrsIDOka7FQ"
+                            title="Can Americans Speak REAL English?" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen class="w-full rounded"></iframe>
+                        <div class="flex items-center gap-5 text-[12px]">
+                            <img src="./Assests/creator logo/Instant English.jpg" alt=""
+                                class=" w-8 h-8 rounded-3xl self-start mt-2">
+                            <div class="leading-5">
+                                <p>Can Americans Speak REAL English?</p>
+                                <p class=" text-[10px] ">
+                                    875K views 1 month ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="z-10 fixed w-full flex justify-between items-center h-[30px] bottom-0 sm:hidden bg-[#0f0f0f] ]  px-2">
+            <i class="fa-solid fa-house"></i>
+            <img src="./Assests/youtube-shorts-logo-15250.png" alt="" class="w-5 h-5">
+            <i class="fa-solid fa-circle-plus text-[20px]"></i>
+            <img src=" ./Assests/subscription.png" alt="" class="w-5 h-5" />
+            <img src="./Assests/thor.jpg" alt="" class=" w-5 h-5 rounded-3xl">
+
+        </div>
+
+    </main>
+    <!-- main-left add for hover different style -->
+    <div class=" bg-[#0f0f0f] hidden mt-10 z-30 sm:block fixed left-0 top-4 sm:w-[80px] h-full hover:w-[250px]">
+        <div class=" flex  flex-col items-center gap-5 pt-8 sm:flex  ">
+            <div class="flex flex-col items-center gap-1 ">
+                <i class="fa-solid fa-house"></i>
+                <p class="text-[10px]">Home</p>
+            </div>
+            <div class=" flex flex-col hover:flex items-center gap-1">
+                <img src="./Assests/yt-short.png" alt="" class="w-6 h-7 ">
+                <p class="text-[10px]">Shorts</p>
+            </div>
+            <div class=" flex flex-col items-center gap-1">
+                <img src=" ./Assests/subscription.png" alt="" class="w-6 h-6" />
+                <p class="text-[10px]">subscription</p>
+            </div>
+            <div class=" flex flex-col items-center gap-1 ">
+                <img src="./Assests/you option.png" alt="" class="w-6 h-6">
+                <p class="text-[10px]">You</p>
+            </div>
+            <div class=" flex flex-col items-center gap-1">
+                <i class="fa-solid fa-download"></i>
+                <p class="text-[10px]">Download</p>
+            </div>
+        </div>
+    </div>
+    <div class=" bg-[#0f0f0f] hidden mt-10 z-30 sm:block fixed left-0 top-4 sm:w-[80px] h-full hover:w-[250px]">
+        <div class=" flex  flex-col items-center gap-5 pt-8 sm:flex ">
+            <div class="flex flex-col items-center gap-1 ">
+                <i class="fa-solid fa-house"></i>
+                <p class="text-[10px]">Home</p>
+            </div>
+            <div class=" flex flex-col hover:flex items-center gap-1">
+                <img src="./Assests/yt-short.png" alt="" class="w-6 h-7 ">
+                <p class="text-[10px]">Shorts</p>
+            </div>
+            <div class=" flex flex-col items-center gap-1">
+                <img src=" ./Assests/subscription.png" alt="" class="w-6 h-6" />
+                <p class="text-[10px]">subscription</p>
+            </div>
+            <div class=" flex flex-col items-center gap-1 ">
+                <img src="./Assests/you option.png" alt="" class="w-6 h-6">
+                <p class="text-[10px]">You</p>
+            </div>
+            <div class=" flex flex-col items-center gap-1">
+                <i class="fa-solid fa-download"></i>
+                <p class="text-[10px]">Download</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
